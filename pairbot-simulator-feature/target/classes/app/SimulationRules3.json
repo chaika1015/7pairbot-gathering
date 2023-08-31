@@ -1,0 +1,11 @@
+[
+	{
+		"parentId": 1,
+		"childId": 1,
+		"isShort": true,
+		"pairPointId": 0,
+		"occupy": [0, 2, 0, 0, 0, 0, 2],
+		"conditions": ["pass", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 5
+	}
+]

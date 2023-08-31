@@ -1,0 +1,662 @@
+G.add_nodes_from(['23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48',
+                  '49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74',
+                  '75','76','77','78','79','80','81','82','83','84','85','86','87'])
+G.add_weighted_edges_from([
+    ('23','31',8),('23','35',9),
+    ('24','32',8),('24','34',10),
+    ('25','33',9),
+    ('26','31',1),('26','53',8),('26','57',9),
+    ('27','32',1),('27','52',9),('27','58',10),
+    ('28','59',9),('28','51',10),
+    ('29','34',2),('29','60',8),('29','50',9),
+    ('30','35',3),
+    ('31','23',1),('31','54',9),
+    ('32','27',1),('32','42',9),('32','55',10),('32','24',8),
+    ('33','25',9),('33','41',10),
+    ('34','29',2),('34','55',8),('34','40',9),('34','24',10),
+    ('35','30',3),('35','23',9),
+    ('36','26',1),('36','30',3),('36','81',9),
+    ('37','27',1),('37','29',2),('37','84',8),('37','74',9),('37','82',10),
+    ('38','75',10),
+    ('39','49',3),('39','35',11),
+    ('40','50',2),('40','34',12),
+    ('41','51',1),('41','67',5),('41','33',15),
+    ('42','52',1),('42','68',6),('42','32',13),
+    ('43','53',1),('43','54',6),('43','31',14),
+    ('44','49',3),('44','76',9),('44','48',11),
+    ('45','50',2),('45','77',10),('45','47',12),
+    ('46','51',1),('46','71',5),('46','79',9),('46','46',15),
+    ('47','52',1),('47','34',5),('47','73',6),('47','23',7),('47','78',8),('47','45',13),
+    ('48','53',1),('48','24',5),('48','54',6),('48','35',7),('48','80',8),('48','44',14),
+    ('49','39',3),('49','49',9),('49','30',11),
+    ('50','40',2),('50','50',10),('50','29',12),
+    ('51','41',1),('51','71',5),('51','51',9),('51','28',15),
+    ('52','42',1),('52','72',6),('52','53',8),('52','27',13),
+    ('53','43',1),('53','57',6),('53','52',8),('53','26',14),
+    ('54','76',1),('54','80',3),('54','39',4),('54','35',11),('54','31',12),
+    ('55','77',1),('55','60',2),('55','41',5),('55','40',6),('55','34',14),('55','32',15),
+    ('56','64',1),('56','42',7),('56','25',13),
+    ('57','54',1),('57','80',3),('57','65',4),('57','72',11),('57','26',12),
+    ('58','55',1),('58','63',2),('58','51',5),('58','66',6),('58','71',13),('58','27',15),
+    ('59','64',1),('59','68',7),('59','28',13),('59','73',14),
+    ('60','77',1),('60','55',2),('60','67',5),('60','50',6),('60','29',14),('60','70',15),
+    ('61','76',1),('61','54',3),('61','68',4),('61','30',11),('61','69',12),
+    ('62','61',1),('62','57',3),('62','69',4),('62','64',11),('62','62',12),
+    ('63','60',1),('63','58',2),('63','71',5),('63','70',6),('63','63',13),('63','63',15),
+    ('64','72',7),
+    ('65','69',3),
+    ('66','70',2),
+    ('67','71',1),
+    ('68','72',1),('68','43',3),
+    ('69','65',3),('69','61',9),
+    ('70','66',2),('70','60',10),
+    ('71','67',1),('71','58',9),
+    ('72','64',3),('72','57',8),
+    ('73','68',1),('73','53',3),('73','59',8),
+    ('74','50',5),('74','81',6),('74','49',7),('74','36',31),('74','37',32),
+    ('75','38',33),
+    ('76','76',3),('76','54',4),('76','44',12),
+    ('77','77',2),('77','55',4),('77','45',15),
+    ('78','79',1),('78','55',5),('78','59',6),('78','47',14),('78','28',17),('78','31',20),
+    ('79','78',1),('79','58',5),('79','56',6),('79','46',13),('79','70',17),('79','26',20),
+    ('80','80',1),('80','54',7),('80','48',11),
+    ('81','85',3),('81','65',4),('81','72',16),('81','36',27),
+    ('82','87',2),('82','75',5),('82','66',6),('82','71',7),('82','37',30),
+    ('83','86',1),('83','67',5),('83','74',6),('83','69',20),('83','37',27),
+    ('84','85',1),('84','74',4),('84','74',7),('84','73',18),('84','70',19),('84','36',28),('84','38',29),
+    ('85','80',4),('85','81',7),('85','64',16),('85','62',18),('85','45',19),('85','36',21),('85','37',22),
+    ('86','83',4),('86','77',5),('86','84',6),('86','47',18),('86','63',19),('86','44',20),('86','37',23),('86','38',24),
+    ('87','75',5),('87','56',6),('87','36',25),
+    ], weight='number')
+
+閉路1:c^5_{51} \rightarrow c^5_{51}
+閉路2:c^5_{50} \rightarrow c^5_{50}
+閉路3:c^5_{49} \rightarrow c^5_{49}
+閉路4:c^5_{76} \rightarrow c^5_{76}
+閉路5:c^5_{77} \rightarrow c^5_{77}
+閉路6:c^5_{46} \rightarrow c^5_{46}
+閉路7:c^5_{80} \rightarrow c^5_{80}
+閉路8:c^5_{63} \rightarrow c^5_{63}
+閉路9:c^5_{62} \rightarrow c^5_{62}
+閉路10:c^5_{86} \rightarrow c^5_{83} \rightarrow c^5_{86}
+閉路11:c^5_{74} \rightarrow c^5_{37} \rightarrow c^5_{74}
+閉路12:c^5_{37} \rightarrow c^5_{82} \rightarrow c^5_{37}
+閉路13:c^5_{36} \rightarrow c^5_{81} \rightarrow c^5_{36}
+閉路14:c^5_{85} \rightarrow c^5_{81} \rightarrow c^5_{85}
+閉路15:c^5_{38} \rightarrow c^5_{75} \rightarrow c^5_{38}
+閉路16:c^5_{51} \rightarrow c^5_{28} \rightarrow c^5_{51}
+閉路17:c^5_{51} \rightarrow c^5_{41} \rightarrow c^5_{51}
+閉路18:c^5_{48} \rightarrow c^5_{44} \rightarrow c^5_{48}
+閉路19:c^5_{48} \rightarrow c^5_{80} \rightarrow c^5_{48}
+閉路20:c^5_{64} \rightarrow c^5_{72} \rightarrow c^5_{64}
+閉路21:c^5_{40} \rightarrow c^5_{34} \rightarrow c^5_{40}
+閉路22:c^5_{40} \rightarrow c^5_{50} \rightarrow c^5_{40}
+閉路23:c^5_{45} \rightarrow c^5_{47} \rightarrow c^5_{45}
+閉路24:c^5_{45} \rightarrow c^5_{77} \rightarrow c^5_{45}
+閉路25:c^5_{78} \rightarrow c^5_{47} \rightarrow c^5_{78}
+閉路26:c^5_{78} \rightarrow c^5_{79} \rightarrow c^5_{78}
+閉路27:c^5_{79} \rightarrow c^5_{46} \rightarrow c^5_{79}
+閉路28:c^5_{28} \rightarrow c^5_{59} \rightarrow c^5_{28}
+閉路29:c^5_{73} \rightarrow c^5_{59} \rightarrow c^5_{73}
+閉路30:c^5_{42} \rightarrow c^5_{32} \rightarrow c^5_{42}
+閉路31:c^5_{42} \rightarrow c^5_{52} \rightarrow c^5_{42}
+閉路32:c^5_{66} \rightarrow c^5_{70} \rightarrow c^5_{66}
+閉路33:c^5_{33} \rightarrow c^5_{41} \rightarrow c^5_{33}
+閉路34:c^5_{33} \rightarrow c^5_{25} \rightarrow c^5_{33}
+閉路35:c^5_{50} \rightarrow c^5_{29} \rightarrow c^5_{50}
+閉路36:c^5_{67} \rightarrow c^5_{71} \rightarrow c^5_{67}
+閉路37:c^5_{34} \rightarrow c^5_{24} \rightarrow c^5_{34}
+閉路38:c^5_{34} \rightarrow c^5_{55} \rightarrow c^5_{34}
+閉路39:c^5_{34} \rightarrow c^5_{29} \rightarrow c^5_{34}
+閉路40:c^5_{27} \rightarrow c^5_{58} \rightarrow c^5_{27}
+閉路41:c^5_{27} \rightarrow c^5_{52} \rightarrow c^5_{27}
+閉路42:c^5_{27} \rightarrow c^5_{32} \rightarrow c^5_{27}
+閉路43:c^5_{26} \rightarrow c^5_{57} \rightarrow c^5_{26}
+閉路44:c^5_{43} \rightarrow c^5_{53} \rightarrow c^5_{43}
+閉路45:c^5_{52} \rightarrow c^5_{53} \rightarrow c^5_{52}
+閉路46:c^5_{72} \rightarrow c^5_{57} \rightarrow c^5_{72}
+閉路47:c^5_{65} \rightarrow c^5_{69} \rightarrow c^5_{65}
+閉路48:c^5_{61} \rightarrow c^5_{69} \rightarrow c^5_{61}
+閉路49:c^5_{58} \rightarrow c^5_{71} \rightarrow c^5_{58}
+閉路50:c^5_{58} \rightarrow c^5_{63} \rightarrow c^5_{58}
+閉路51:c^5_{29} \rightarrow c^5_{60} \rightarrow c^5_{29}
+閉路52:c^5_{70} \rightarrow c^5_{60} \rightarrow c^5_{70}
+閉路53:c^5_{24} \rightarrow c^5_{32} \rightarrow c^5_{24}
+閉路54:c^5_{55} \rightarrow c^5_{32} \rightarrow c^5_{55}
+閉路55:c^5_{55} \rightarrow c^5_{60} \rightarrow c^5_{55}
+閉路56:c^5_{55} \rightarrow c^5_{77} \rightarrow c^5_{55}
+閉路57:c^5_{54} \rightarrow c^5_{31} \rightarrow c^5_{54}
+閉路58:c^5_{54} \rightarrow c^5_{80} \rightarrow c^5_{54}
+閉路59:c^5_{76} \rightarrow c^5_{44} \rightarrow c^5_{76}
+閉路60:c^5_{49} \rightarrow c^5_{39} \rightarrow c^5_{49}
+閉路61:c^5_{30} \rightarrow c^5_{35} \rightarrow c^5_{30}
+閉路62:c^5_{35} \rightarrow c^5_{23} \rightarrow c^5_{35}
+閉路63:c^5_{51} \rightarrow c^5_{71} \rightarrow c^5_{58} \rightarrow c^5_{51}
+閉路64:c^5_{48} \rightarrow c^5_{54} \rightarrow c^5_{80} \rightarrow c^5_{48}
+閉路65:c^5_{40} \rightarrow c^5_{34} \rightarrow c^5_{55} \rightarrow c^5_{40}
+閉路66:c^5_{50} \rightarrow c^5_{29} \rightarrow c^5_{60} \rightarrow c^5_{50}
+閉路67:c^5_{26} \rightarrow c^5_{53} \rightarrow c^5_{57} \rightarrow c^5_{26}
+閉路68:c^5_{55} \rightarrow c^5_{60} \rightarrow c^5_{77} \rightarrow c^5_{55}
+閉路69:c^5_{74} \rightarrow c^5_{81} \rightarrow c^5_{85} \rightarrow c^5_{37} \rightarrow c^5_{74}
+閉路70:c^5_{40} \rightarrow c^5_{34} \rightarrow c^5_{29} \rightarrow c^5_{50} \rightarrow c^5_{40}
+閉路71:c^5_{40} \rightarrow c^5_{50} \rightarrow c^5_{29} \rightarrow c^5_{34} \rightarrow c^5_{40}
+閉路72:c^5_{42} \rightarrow c^5_{32} \rightarrow c^5_{27} \rightarrow c^5_{52} \rightarrow c^5_{42}
+閉路73:c^5_{42} \rightarrow c^5_{52} \rightarrow c^5_{27} \rightarrow c^5_{32} \rightarrow c^5_{42}
+閉路74:c^5_{34} \rightarrow c^5_{24} \rightarrow c^5_{32} \rightarrow c^5_{55} \rightarrow c^5_{34}
+閉路75:c^5_{34} \rightarrow c^5_{55} \rightarrow c^5_{32} \rightarrow c^5_{24} \rightarrow c^5_{34}
+閉路76:c^5_{34} \rightarrow c^5_{55} \rightarrow c^5_{60} \rightarrow c^5_{29} \rightarrow c^5_{34}
+閉路77:c^5_{34} \rightarrow c^5_{29} \rightarrow c^5_{60} \rightarrow c^5_{55} \rightarrow c^5_{34}
+閉路78:c^5_{27} \rightarrow c^5_{58} \rightarrow c^5_{55} \rightarrow c^5_{32} \rightarrow c^5_{27}
+閉路79:c^5_{40} \rightarrow c^5_{34} \rightarrow c^5_{24} \rightarrow c^5_{32} \rightarrow c^5_{55} \rightarrow c^5_{40}
+閉路80:c^5_{40} \rightarrow c^5_{34} \rightarrow c^5_{55} \rightarrow c^5_{60} \rightarrow c^5_{50} \rightarrow c^5_{40}
+閉路81:c^5_{40} \rightarrow c^5_{34} \rightarrow c^5_{29} \rightarrow c^5_{60} \rightarrow c^5_{50} \rightarrow c^5_{40}
+閉路82:c^5_{40} \rightarrow c^5_{34} \rightarrow c^5_{29} \rightarrow c^5_{60} \rightarrow c^5_{55} \rightarrow c^5_{40}
+閉路83:c^5_{40} \rightarrow c^5_{50} \rightarrow c^5_{29} \rightarrow c^5_{60} \rightarrow c^5_{55} \rightarrow c^5_{40}
+閉路84:c^5_{40} \rightarrow c^5_{50} \rightarrow c^5_{29} \rightarrow c^5_{34} \rightarrow c^5_{55} \rightarrow c^5_{40}
+閉路85:c^5_{50} \rightarrow c^5_{29} \rightarrow c^5_{34} \rightarrow c^5_{55} \rightarrow c^5_{60} \rightarrow c^5_{50}
+閉路86:c^5_{26} \rightarrow c^5_{53} \rightarrow c^5_{52} \rightarrow c^5_{72} \rightarrow c^5_{57} \rightarrow c^5_{26}
+
+    c^5_{23}:(rule_{5}),(rule_{3}),(rule_{18},rule_{5}),(rule_{6},rule_{3})\\
+    c^5_{24}:(rule_{5}),(rule_{2}),(rule_{18},rule_{5}),(rule_{2},rule_{8})\\
+    c^5_{25}:(rule_{5}),(rule_{5},rule_{6})\\
+    c^5_{26}:(rule_{3}),(rule_{18},rule_{3}),(rule_{6},rule_{3})\\
+    c^5_{27}:(rule_{2}),(rule_{6},rule_{2}),(rule_{2},rule_{8})\\
+    c^5_{28}:(rule_{5}),(rule_{5},rule_{6}),(rule_{5},rule_{8})\\
+    c^5_{29}:(rule_{5}),(rule_{18},rule_{5}),(rule_{5},rule_{6})\\
+    c^5_{30}:(rule_{18})\\
+    c^5_{31}:(rule_{3}),(rule_{18})\\
+    c^5_{32}:(rule_{2}),(rule_{18},rule_{5}),(rule_{18},rule_{6}),(rule_{6},rule_{8})\\
+    c^5_{33}:(rule_{5}),(rule_{6},rule_{8})\\
+    c^5_{34}:(rule_{5}),(rule_{2},rule_{8}),(rule_{18},rule_{6}),(rule_{6},rule_{8})\\
+    c^5_{35}:(rule_{5}),(rule_{18}),(rule_{6},rule_{3})\\
+    c^5_{36}:(rule_{5},rule_{3}),(rule_{18}),(rule_{5},rule_{6}),(rule_{6},rule_{3})\\
+    c^5_{37}:(rule_{5},rule_{2}),(rule_{18},rule_{5}),(rule_{5},rule_{6}),(rule_{5},rule_{8}),(rule_{18},rule_{2}),(rule_{6},rule_{2}),(rule_{2},rule_{8}),(rule_{18},rule_{6}),(rule_{18},rule_{8}),(rule_{6},rule_{8})\\
+    c^5_{38}:(rule_{5}),(rule_{6})\\
+    c^5_{39}:(rule_{19})\\
+    c^5_{40}:(rule_{19})\\
+    c^5_{41}:(rule_{12}),(rule_{11},rule_{23})\\
+    c^5_{42}:(rule_{11}),(rule_{16}),(rule_{21},rule_{12})\\
+    c^5_{43}:(rule_{11}),(rule_{16}),(rule_{12},rule_{22})\\
+    c^5_{44}:(rule_{19}),(rule_{6},rule_{3}),(rule_{40},rule_{3}),(rule_{6},rule_{40})\\
+    c^5_{45}:(rule_{19}),(rule_{2},rule_{8}),(rule_{2},rule_{20}),(rule_{8},rule_{20})\\
+    c^5_{46}:(rule_{12}),(rule_{5},rule_{6}),(rule_{5},rule_{23}),(rule_{6},rule_{11}),(rule_{11},rule_{23}),(rule_{6},rule_{23})\\
+    c^5_{47}:(rule_{18},rule_{5}),(rule_{5},rule_{21}),(rule_{21},rule_{12}),(rule_{18},rule_{16}),(rule_{21},rule_{16}),(rule_{18},rule_{21})\\
+    c^5_{48}:(rule_{18},rule_{5}),(rule_{5},rule_{22}),(rule_{18},rule_{12}),(rule_{12},rule_{22}),(rule_{22},rule_{16}),(rule_{18},rule_{22})\\
+    c^5_{49}:(rule_{19}),(rule_{6},rule_{3}),(rule_{6},rule_{40})\\
+    c^5_{50}:(rule_{19}),(rule_{2},rule_{8}),(rule_{8},rule_{20})\\
+    c^5_{51}:(rule_{12}),(rule_{5},rule_{6}),(rule_{11},rule_{23}),(rule_{6},rule_{23})\\
+    c^5_{52}:(rule_{11}),(rule_{16}),(rule_{18},rule_{5}),(rule_{21},rule_{12}),(rule_{18},rule_{21})\\
+    c^5_{53}:(rule_{11}),(rule_{16}),(rule_{18},rule_{5}),(rule_{12},rule_{22}),(rule_{18},rule_{22})\\
+    c^5_{54}:(rule_{5},rule_{19}),(rule_{5},rule_{40}),(rule_{3},rule_{19}),(rule_{3},rule_{20}),(rule_{40},rule_{19}),(rule_{19},rule_{20})\\
+    c^5_{55}:(rule_{5}),(rule_{5},rule_{22}),(rule_{2},rule_{11}),(rule_{2},rule_{23}),(rule_{11},rule_{23}),(rule_{12},rule_{22})\\
+    c^5_{56}:(rule_{5},rule_{16}),(rule_{5},rule_{21}),(rule_{21},rule_{16})\\
+    c^5_{57}:(rule_{5},rule_{40}),(rule_{3},rule_{19}),(rule_{3},rule_{20}),(rule_{40},rule_{19}),(rule_{19},rule_{20}),(rule_{40},rule_{20})\\
+    c^5_{58}:(rule_{5},rule_{21}),(rule_{2},rule_{11}),(rule_{2},rule_{23}),(rule_{11},rule_{23}),(rule_{21},rule_{12}),(rule_{21},rule_{23})\\
+    c^5_{59}:(rule_{5},rule_{16}),(rule_{5},rule_{21}),(rule_{5},rule_{22}),(rule_{21},rule_{16}),(rule_{22},rule_{16}),(rule_{21},rule_{22})\\
+    c^5_{60}:(rule_{5},rule_{12}),(rule_{5},rule_{22}),(rule_{2},rule_{23}),(rule_{11},rule_{23}),(rule_{12},rule_{22}),(rule_{22},rule_{23})\\
+    c^5_{61}:(rule_{5},rule_{40}),(rule_{5},rule_{19}),(rule_{3},rule_{20}),(rule_{40},rule_{19}),(rule_{19},rule_{20}),(rule_{40},rule_{20})\\
+    c^5_{62}:(rule_{5},rule_{3}),(rule_{5},rule_{40}),(rule_{3},rule_{20}),(rule_{40},rule_{19}),(rule_{19},rule_{20}),(rule_{40},rule_{20})\\
+    c^5_{63}:(rule_{5},rule_{2}),(rule_{5},rule_{21}),(rule_{2},rule_{23}),(rule_{11},rule_{23}),(rule_{21},rule_{12}),(rule_{21},rule_{23})\\
+    c^5_{64}:(rule_{5}),(rule_{22})\\
+    c^5_{65}:(rule_{5})\\
+    c^5_{66}:(rule_{5})\\
+    c^5_{67}:(rule_{2})\\
+    c^5_{68}:(rule_{5},rule_{3})\\
+    c^5_{69}:(rule_{5}),(rule_{6},rule_{3})\\
+    c^5_{70}:(rule_{5}),(rule_{2},rule_{8})\\
+    c^5_{71}:(rule_{2}),(rule_{5},rule_{6})\\
+    c^5_{72}:(rule_{5})\\
+    c^5_{73}:(rule_{5},rule_{3}),(rule_{18},rule_{5}),(rule_{18},rule_{3})\\
+    c^5_{74}:(rule_{19}),(rule_{11},rule_{16}),(rule_{11},rule_{43}),(rule_{12},rule_{43}),(rule_{42},rule_{16})\\
+    c^5_{75}:(rule_{11}),(rule_{12})\\
+    c^5_{76}:(rule_{41}),(rule_{3},rule_{20})\\
+    c^5_{77}:(rule_{24}),(rule_{25}),(rule_{2},rule_{23})\\
+    c^5_{78}:(rule_{5},rule_{22}),(rule_{5},rule_{27}),(rule_{27},rule_{11}),(rule_{11},rule_{16}),(rule_{26},rule_{12}),(rule_{27},rule_{12}),(rule_{26},rule_{22}),(rule_{27},rule_{22}),(rule_{26},rule_{27})\\
+    c^5_{79}:(rule_{5},rule_{21}),(rule_{5},rule_{27}),(rule_{27},rule_{11}),(rule_{26},rule_{11}),(rule_{26},rule_{12}),(rule_{27},rule_{12}),(rule_{26},rule_{21}),(rule_{27},rule_{21}),(rule_{26},rule_{27})\\
+    c^5_{80}:(rule_{24}),(rule_{25}),(rule_{5},rule_{40})\\
+    c^5_{81}:(rule_{3},rule_{19}),(rule_{51},rule_{3}),(rule_{41},rule_{19}),(rule_{51},rule_{19}),(rule_{41},rule_{51})\\
+    c^5_{82}:(rule_{2},rule_{11}),(rule_{2},rule_{54}),(rule_{26},rule_{11}),(rule_{11},rule_{54}),(rule_{26},rule_{12}),(rule_{12},rule_{54}),(rule_{26},rule_{54})\\
+    c^5_{83}:(rule_{5},rule_{12}),(rule_{5},rule_{51}),(rule_{27},rule_{11}),(rule_{51},rule_{11}),(rule_{27},rule_{12}),(rule_{51},rule_{12}),(rule_{51},rule_{27})\\
+    c^5_{84}:(rule_{5},rule_{19}),(rule_{5},rule_{16}),(rule_{24},rule_{19}),(rule_{25},rule_{19}),(rule_{19},rule_{52}),(rule_{24},rule_{16}),(rule_{25},rule_{16}),(rule_{53},rule_{16}),(rule_{24},rule_{53}),(rule_{25},rule_{52})\\
+    c^5_{85}:(rule_{41},rule_{19}),(rule_{19},rule_{45}),(rule_{24},rule_{16}),(rule_{25},rule_{16}),(rule_{46},rule_{16}),(rule_{41},rule_{24}),(rule_{41},rule_{25}),(rule_{41},rule_{45}),(rule_{41},rule_{46}),(rule_{24},rule_{45}),(rule_{24},rule_{46}),(rule_{25},rule_{45}),(rule_{25},rule_{46})\\
+    c^5_{86}:(rule_{24},rule_{19}),(rule_{25},rule_{19}),(rule_{19},rule_{47}),(rule_{27},rule_{11}),(rule_{48},rule_{11}),(rule_{27},rule_{12}),(rule_{48},rule_{12}),(rule_{24},rule_{27}),(rule_{24},rule_{47}),(rule_{48},rule_{24}),(rule_{25},rule_{27}),(rule_{25},rule_{47}),(rule_{48},rule_{25}),(rule_{27},rule_{47}),(rule_{48},rule_{27})\\
+    c^5_{87}:(rule_{26}),(rule_{49},rule_{11}),(rule_{49},rule_{12})\\
+    
+\begin{figure}[H]
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_1.pdf}
+  \subcaption*{$c^{6}_1$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_2.pdf}
+  \subcaption*{$c^{6}_2$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_3.pdf}
+  \subcaption*{$c^{6}_3$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_4.pdf}
+  \subcaption*{$c^{6}_4$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_5.pdf}
+  \subcaption*{$c^{6}_5$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_6.pdf}
+  \subcaption*{$c^{6}_6$}
+ \end{minipage}\\
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_7.pdf}
+  \subcaption*{$c^{6}_7$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_8.pdf}
+  \subcaption*{$c^{6}_8$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_9.pdf}
+  \subcaption*{$c^{6}_9$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_10.pdf}
+  \subcaption*{$c^{6}_{10}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_11.pdf}
+  \subcaption*{$c^{6}_{11}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_12.pdf}
+  \subcaption*{$c^{6}_{12}$}
+ \end{minipage}\\
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_13.pdf}
+  \subcaption*{$c^{6}_{13}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_14.pdf}
+  \subcaption*{$c^{6}_{14}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_15.pdf}
+  \subcaption*{$c^{6}_{15}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_16.pdf}
+  \subcaption*{$c^{6}_{16}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_17.pdf}
+  \subcaption*{$c^{6}_{17}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_18.pdf}
+  \subcaption*{$c^{6}_{18}$}
+ \end{minipage}\\
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_19.pdf}
+  \subcaption*{$c^{6}_{19}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_20.pdf}
+  \subcaption*{$c^{6}_{20}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_21.pdf}
+  \subcaption*{$c^{6}_{21}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_22.pdf}
+  \subcaption*{$c^{6}_{22}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_23.pdf}
+  \subcaption*{$c^{6}_{23}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_24.pdf}
+  \subcaption*{$c^{6}_{24}$}
+ \end{minipage}\\
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_25.pdf}
+  \subcaption*{$c^{6}_{25}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_26.pdf}
+  \subcaption*{$c^{6}_{26}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_27.pdf}
+  \subcaption*{$c^{6}_{27}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_28.pdf}
+  \subcaption*{$c^{6}_{28}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_29.pdf}
+  \subcaption*{$c^{6}_{29}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_30.pdf}
+  \subcaption*{$c^{6}_{30}$}
+ \end{minipage}\\
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_31.pdf}
+  \subcaption*{$c^{6}_{31}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_32.pdf}
+  \subcaption*{$c^{6}_{32}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_33.pdf}
+  \subcaption*{$c^{6}_{33}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_34.pdf}
+  \subcaption*{$c^{6}_{34}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_35.pdf}
+  \subcaption*{$c^{6}_{35}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_36.pdf}
+  \subcaption*{$c^{6}_{36}$}
+ \end{minipage}\\
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_37.pdf}
+  \subcaption*{$c^{6}_{37}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_38.pdf}
+  \subcaption*{$c^{6}_{38}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_39.pdf}
+  \subcaption*{$c^{6}_{39}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_40.pdf}
+  \subcaption*{$c^{6}_{40}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_41.pdf}
+  \subcaption*{$c^{6}_{41}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_42.pdf}
+  \subcaption*{$c^{6}_{42}$}
+ \end{minipage}\\
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_43.pdf}
+  \subcaption*{$c^{6}_{43}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_44.pdf}
+  \subcaption*{$c^{6}_{44}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_45.pdf}
+  \subcaption*{$c^{6}_{45}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_46.pdf}
+  \subcaption*{$c^{6}_{46}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_47.pdf}
+  \subcaption*{$c^{6}_{47}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_48.pdf}
+  \subcaption*{$c^{6}_{48}$}
+ \end{minipage}\\
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_49.pdf}
+  \subcaption*{$c^{6}_{49}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_50.pdf}
+  \subcaption*{$c^{6}_{50}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_51.pdf}
+  \subcaption*{$c^{6}_{51}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_52.pdf}
+  \subcaption*{$c^{6}_{52}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_53.pdf}
+  \subcaption*{$c^{6}_{53}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_54.pdf}
+  \subcaption*{$c^{6}_{54}$}
+ \end{minipage}\\
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_55.pdf}
+  \subcaption*{$c^{6}_{55}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_56.pdf}
+  \subcaption*{$c^{6}_{56}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_57.pdf}
+  \subcaption*{$c^{6}_{57}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_58.pdf}
+  \subcaption*{$c^{6}_{58}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_59.pdf}
+  \subcaption*{$c^{6}_{59}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_60.pdf}
+  \subcaption*{$c^{6}_{60}$}
+ \end{minipage}\\
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_61.pdf}
+  \subcaption*{$c^{6}_{61}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_62.pdf}
+  \subcaption*{$c^{6}_{62}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_63.pdf}
+  \subcaption*{$c^{6}_{63}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_64.pdf}
+  \subcaption*{$c^{6}_{64}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_65.pdf}
+  \subcaption*{$c^{6}_{65}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_66.pdf}
+  \subcaption*{$c^{6}_{66}$}
+ \end{minipage}\\
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_67.pdf}
+  \subcaption*{$c^{6}_{67}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_68.pdf}
+  \subcaption*{$c^{6}_{68}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_69.pdf}
+  \subcaption*{$c^{6}_{69}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_70.pdf}
+  \subcaption*{$c^{6}_{70}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_71.pdf}
+  \subcaption*{$c^{6}_{71}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_72.pdf}
+  \subcaption*{$c^{6}_{72}$}
+ \end{minipage}\\
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_73.pdf}
+  \subcaption*{$c^{6}_{73}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_74.pdf}
+  \subcaption*{$c^{6}_{74}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_75.pdf}
+  \subcaption*{$c^{6}_{75}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_76.pdf}
+  \subcaption*{$c^{6}_{76}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_77.pdf}
+  \subcaption*{$c^{6}_{77}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_78.pdf}
+  \subcaption*{$c^{6}_{78}$}
+ \end{minipage}\\
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_79.pdf}
+  \subcaption*{$c^{6}_{79}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_80.pdf}
+  \subcaption*{$c^{6}_{80}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_81.pdf}
+  \subcaption*{$c^{6}_{81}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_82.pdf}
+  \subcaption*{$c^{6}_{82}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_83.pdf}
+  \subcaption*{$c^{6}_{83}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_84.pdf}
+  \subcaption*{$c^{6}_{84}$}
+ \end{minipage}\\
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_85.pdf}
+  \subcaption*{$c^{6}_{85}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_86.pdf}
+  \subcaption*{$c^{6}_{86}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.4]{body/figure/configs/V6/c6_87.pdf}
+  \subcaption*{$c^{6}_{87}$}
+ \end{minipage}
+ \caption{$\mathbb{V}^5$に含まれる状況の一覧}\label{V6}
+\end{figure}

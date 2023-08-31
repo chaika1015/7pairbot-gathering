@@ -1,0 +1,76 @@
+\STATE Rule1  :: $pair=l_0\land occupy(l_2)=occupy(l_3)=occupy(l_4)=occupy(l_5)=occupy(l_6)=0 \land occupy(l_1)=2 \longrightarrow move(l_2)$\\
+\STATE Rule2  :: $pair=l_0\land occupy(l_1)=occupy(l_3)=occupy(l_4)=occupy(l_5)=occupy(l_6)=0 \land occupy(l_2)=2 \longrightarrow move(l_3)$\\
+\STATE Rule3  :: $pair=l_0\land occupy(l_1)=occupy(l_2)=occupy(l_4)=occupy(l_5)=occupy(l_6)=0 \land occupy(l_3)=2 \longrightarrow move(l_4)$\\
+\STATE Rule4  :: $pair=l_0\land occupy(l_1)=occupy(l_2)=occupy(l_3)=occupy(l_5)=occupy(l_6)=0 \land occupy(l_4)=2 \longrightarrow move(l_5)$\\
+\STATE Rule5  :: $pair=l_0\land occupy(l_1)=occupy(l_2)=occupy(l_3)=occupy(l_4)=occupy(l_6)=0 \land occupy(l_5)=2 \longrightarrow move(l_6)$\\
+\STATE Rule6  :: $pair=l_0\land occupy(l_1)=occupy(l_2)=occupy(l_3)=occupy(l_4)=occupy(l_5)=0 \land occupy(l_6)=2 \longrightarrow move(l_1)$\\
+\STATE Rule7  :: $pair=l_2\land occupy(l_3)=occupy(l_4)=occupy(l_5)=occupy(l_6)=0 \land occupy(l_2)=1 \land occupy(l_1)=2 \longrightarrow move(l_2)$\\
+\STATE Rule8  :: $pair=l_3\land occupy(l_4)=occupy(l_5)=occupy(l_6)=0 \land occupy(l_3)=1 \land occupy(l_2)=2 \longrightarrow move(l_3)$\\
+\STATE Rule9  :: $pair=l_4\land occupy(l_1)=occupy(l_2)=occupy(l_5)=occupy(l_6)=0 \land occupy(l_4)=1 \land occupy(l_3)=2 \longrightarrow move(l_4)$\\
+\STATE Rule10  :: $pair=l_5\land occupy(l_1)=occupy(l_2)=occupy(l_6)=0 \land occupy(l_3)=occupy(l_5)=1 \land occupy(l_4)=2 \longrightarrow move(l_5)$\\
+\STATE Rule11  :: $pair=l_5\land occupy(l_1)=occupy(l_2)=occupy(l_3)=occupy(l_6)=0 \land occupy(l_5)=1 \land occupy(l_4)=2 \longrightarrow move(l_5)$\\
+\STATE Rule12  :: $pair=l_6\land occupy(l_1)=occupy(l_2)=occupy(l_3)=occupy(l_4)=0 \land occupy(l_6)=1 \land occupy(l_5)=2 \longrightarrow move(l_6)$\\
+\STATE Rule13  :: $pair=l_1\land occupy(l_2)=occupy(l_3)=occupy(l_4)=occupy(l_5)=0 \land occupy(l_0)=occupy(l_1)=1 \land occupy(l_6)=2 \longrightarrow move(l_1)$\\
+\STATE Rule14  :: $pair=l_0\land occupy(l_2)=occupy(l_3)=occupy(l_4)=occupy(l_5)=0 \land occupy(l_1)=occupy(l_6)=2 \longrightarrow move(l_2)$\\
+\STATE Rule15  :: $pair=l_0\land occupy(l_3)=occupy(l_4)=occupy(l_5)=occupy(l_6)=0 \land occupy(l_1)=occupy(l_2)=2 \longrightarrow move(l_3)$\\
+\STATE Rule16  :: $pair=l_0\land occupy(l_3)=occupy(l_4)=occupy(l_5)=occupy(l_6)=0 \land occupy(l_1)=1 \land occupy(l_2)=2 \longrightarrow move(l_3)$\\
+\STATE Rule17  :: $pair=l_0\land occupy(l_1)=occupy(l_4)=occupy(l_5)=occupy(l_6)=0 \land occupy(l_2)=occupy(l_3)=2 \longrightarrow move(l_4)$\\
+\STATE Rule18  :: $pair=l_0\land occupy(l_1)=occupy(l_2)=occupy(l_5)=occupy(l_6)=0 \land occupy(l_3)=1 \land occupy(l_4)=2 \longrightarrow move(l_5)$\\
+\STATE Rule19  :: $pair=l_0\land occupy(l_1)=occupy(l_2)=occupy(l_5)=occupy(l_6)=0 \land occupy(l_3)=occupy(l_4)=2 \longrightarrow move(l_5)$\\
+\STATE Rule20  :: $pair=l_0\land occupy(l_1)=occupy(l_2)=occupy(l_3)=occupy(l_6)=0 \land occupy(l_4)=1 \land occupy(l_5)=2 \longrightarrow move(l_6)$\\
+\STATE Rule21  :: $pair=l_0\land occupy(l_1)=occupy(l_2)=occupy(l_3)=occupy(l_6)=0 \land occupy(l_4)=occupy(l_5)=2 \longrightarrow move(l_6)$\\
+\STATE Rule22  :: $pair=l_0\land occupy(l_1)=occupy(l_2)=occupy(l_3)=occupy(l_4)=0 \land occupy(l_5)=occupy(l_6)=2 \longrightarrow move(l_1)$\\
+\STATE Rule23  :: $pair=l_2\land occupy(l_3)=occupy(l_4)=occupy(l_5)=0 \land occupy(l_0)=occupy(l_2)=1 \land occupy(l_1)=occupy(l_6)=2 \longrightarrow move(l_2)$\\
+\STATE Rule24  :: $pair=l_4\land occupy(l_1)=occupy(l_5)=occupy(l_6)=0 \land occupy(l_4)=1 \land occupy(l_2)=occupy(l_3)=2 \longrightarrow move(l_4)$\\
+\STATE Rule25  :: $pair=l_5\land occupy(l_1)=occupy(l_2)=occupy(l_6)=0 \land occupy(l_5)=1 \land occupy(l_3)=occupy(l_4)=2 \longrightarrow move(l_5)$\\
+\STATE Rule26  :: $pair=l_6\land occupy(l_1)=occupy(l_2)=occupy(l_3)=0 \land occupy(l_4)=occupy(l_6)=1 \land occupy(l_5)=2 \longrightarrow move(l_6)$\\
+\STATE Rule27  :: $pair=l_6\land occupy(l_1)=occupy(l_2)=occupy(l_3)=0 \land occupy(l_6)=1 \land occupy(l_4)=occupy(l_5)=2 \longrightarrow move(l_6)$\\
+\STATE Rule28  :: $pair=l_1\land occupy(l_3)=occupy(l_4)=occupy(l_5)=occupy(l_6)=0 \land occupy(l_0)=occupy(l_1)=occupy(l_2)=1 \longrightarrow move(l_1)$\\
+\STATE Rule29  :: $pair=l_2\land occupy(l_1)=occupy(l_4)=occupy(l_5)=occupy(l_6)=0 \land occupy(l_0)=occupy(l_2)=occupy(l_3)=1 \longrightarrow move(l_2)$\\
+\STATE Rule30  :: $pair=l_3\land occupy(l_1)=occupy(l_2)=occupy(l_5)=occupy(l_6)=0 \land occupy(l_0)=occupy(l_3)=occupy(l_4)=1 \longrightarrow move(l_3)$\\
+\STATE Rule31  :: $pair=l_4\land occupy(l_1)=occupy(l_2)=occupy(l_3)=occupy(l_6)=0 \land occupy(l_0)=occupy(l_4)=occupy(l_5)=1 \longrightarrow move(l_4)$\\
+\STATE Rule32  :: $pair=l_5\land occupy(l_1)=occupy(l_2)=occupy(l_3)=occupy(l_4)=0 \land occupy(l_0)=occupy(l_5)=occupy(l_6)=1 \longrightarrow move(l_5)$\\
+\STATE Rule33  :: $pair=l_6\land occupy(l_2)=occupy(l_3)=occupy(l_4)=occupy(l_5)=0 \land occupy(l_0)=occupy(l_1)=occupy(l_6)=1 \longrightarrow move(l_6)$\\
+\STATE Rule34  :: $pair=l_0\land occupy(l_3)=occupy(l_4)=occupy(l_6)=0 \land occupy(l_2)=1 \land occupy(l_1)=occupy(l_5)=2 \longrightarrow move(l_2)$\\
+\STATE Rule35  :: $pair=l_0\land occupy(l_4)=occupy(l_5)=occupy(l_6)=0 \land occupy(l_3)=1 \land occupy(l_2)=2 \longrightarrow move(l_3)$\\
+\STATE Rule36  :: $pair=l_0\land occupy(l_1)=occupy(l_5)=occupy(l_6)=0 \land occupy(l_4)=1 \land occupy(l_3)=2 \longrightarrow move(l_4)$\\
+\STATE Rule37  :: $pair=l_0\land occupy(l_1)=occupy(l_2)=occupy(l_6)=0 \land occupy(l_5)=1 \land occupy(l_4)=2 \longrightarrow move(l_5)$\\
+\STATE Rule38  :: $pair=l_0\land occupy(l_1)=occupy(l_2)=occupy(l_3)=0 \land occupy(l_6)=1 \land occupy(l_5)=2 \longrightarrow move(l_6)$\\
+\STATE Rule39  :: $pair=l_0\land occupy(l_2)=occupy(l_3)=occupy(l_4)=0 \land occupy(l_1)=1 \land occupy(l_6)=2 \longrightarrow move(l_1)$\\
+\STATE Rule40  :: $pair=l_0\land occupy(l_3)=occupy(l_4)=occupy(l_5)=occupy(l_6)=0 \land occupy(l_2)=1 \land occupy(l_1)=2 \longrightarrow move(l_2)$\\
+\STATE Rule41  :: $pair=l_1\land occupy(l_2)=occupy(l_3)=0 \land occupy(l_1)=1 \land occupy(l_0)=2 \longrightarrow move(l_1)$\\
+\STATE Rule42  :: $pair=l_2\land occupy(l_3)=occupy(l_4)=0 \land occupy(l_2)=1 \land occupy(l_0)=2 \longrightarrow move(l_2)$\\
+\STATE Rule43  :: $pair=l_6\land occupy(l_1)=occupy(l_2)=0 \land occupy(l_6)=1 \land occupy(l_0)=2 \longrightarrow move(l_6)$\\
+\STATE Rule44  :: $pair=l_3\land occupy(l_4)=occupy(l_5)=0 \land occupy(l_3)=1 \land occupy(l_0)=2 \longrightarrow move(l_3)$\\
+\STATE Rule45  :: $pair=l_4\land occupy(l_5)=occupy(l_6)=0 \land occupy(l_4)=1 \land occupy(l_0)=2 \longrightarrow move(l_4)$\\
+\STATE Rule46  :: $pair=l_5\land occupy(l_1)=occupy(l_6)=0 \land occupy(l_5)=1 \land occupy(l_0)=2 \longrightarrow move(l_5)$\\
+\STATE Rule47  :: $pair=l_0\land occupy(l_1)=occupy(l_3)=occupy(l_4)=occupy(l_5)=0 \land occupy(l_2)=1 \land occupy(l_6)=2 \longrightarrow move(l_2)$\\
+\STATE Rule48  :: $pair=l_0\land occupy(l_2)=occupy(l_4)=occupy(l_5)=occupy(l_6)=0 \land occupy(l_3)=1 \land occupy(l_1)=2 \longrightarrow move(l_3)$\\
+\STATE Rule49  :: $pair=l_0\land occupy(l_1)=occupy(l_3)=occupy(l_5)=occupy(l_6)=0 \land occupy(l_4)=1 \land occupy(l_2)=2 \longrightarrow move(l_4)$\\
+\STATE Rule50  :: $pair=l_0\land occupy(l_1)=occupy(l_3)=occupy(l_4)=occupy(l_5)=occupy(l_6)=0 \land occupy(l_2)=1 \longrightarrow move(l_2)$\\
+\STATE Rule51  :: $pair=l_2\land occupy(l_1)=occupy(l_3)=occupy(l_4)=occupy(l_5)=occupy(l_6)=0 \land occupy(l_0)=occupy(l_2)=1 \longrightarrow move(l_2)$\\
+\STATE Rule52  :: $pair=l_1\land occupy(l_2)=0 \land occupy(l_0)=occupy(l_1)=occupy(l_3)=1 \land occupy(l_4)=occupy(l_5)=occupy(l_6)=2 \longrightarrow move(l_1)$\\
+\STATE Rule53  :: $pair=l_0\land occupy(l_2)=occupy(l_3)=0 \land occupy(l_1)=occupy(l_4)=1 \land occupy(l_5)=occupy(l_6)=2 \longrightarrow move(l_1)$\\
+\STATE Rule54  :: $pair=l_2\land occupy(l_3)=0 \land occupy(l_2)=1 \land occupy(l_0)=occupy(l_1)=occupy(l_4)=occupy(l_5)=occupy(l_6)=2 \longrightarrow move(l_2)$\\
+\STATE Rule55  :: $pair=l_0\land occupy(l_1)=occupy(l_3)=occupy(l_4)=occupy(l_5)=0 \land occupy(l_2)=occupy(l_6)=1 \longrightarrow move(l_2)$\\
+\STATE Rule56  :: $pair=l_2\land occupy(l_1)=occupy(l_3)=occupy(l_4)=occupy(l_5)=0 \land occupy(l_0)=occupy(l_2)=occupy(l_6)=1 \longrightarrow move(l_2)$\\
+\STATE Rule57  :: $pair=l_1\land occupy(l_2)=occupy(l_3)=occupy(l_4)=occupy(l_5)=occupy(l_6)=0 \land occupy(l_0)=occupy(l_1)=1 \longrightarrow move(l_1)$\\
+\STATE Rule58  :: $pair=l_4\land occupy(l_1)=occupy(l_5)=occupy(l_6)=0 \land occupy(l_0)=occupy(l_2)=occupy(l_4)=1 \land occupy(l_3)=2 \longrightarrow move(l_4)$\\
+\STATE Rule59  :: $pair=l_4\land occupy(l_5)=0 \land occupy(l_4)=occupy(l_6)=1 \land occupy(l_0)=occupy(l_1)=occupy(l_2)=occupy(l_3)=2 \longrightarrow move(l_4)$\\
+\STATE Rule60  :: $pair=l_2\land occupy(l_3)=occupy(l_4)=0 \land occupy(l_0)=occupy(l_2)=occupy(l_5)=1 \land occupy(l_1)=occupy(l_6)=2 \longrightarrow move(l_2)$\\
+\STATE Rule61  :: $pair=l_5\land occupy(l_6)=0 \land occupy(l_1)=occupy(l_5)=1 \land occupy(l_0)=occupy(l_2)=occupy(l_3)=occupy(l_4)=2 \longrightarrow move(l_5)$\\
+\STATE Rule62  :: $pair=l_0\land occupy(l_2)=occupy(l_3)=0 \land occupy(l_1)=occupy(l_4)=occupy(l_6)=1 \land occupy(l_5)=2 \longrightarrow move(l_1)$\\
+\STATE Rule63  :: $pair=l_1\land occupy(l_2)=occupy(l_5)=0 \land occupy(l_1)=1 \land occupy(l_0)=occupy(l_3)=occupy(l_4)=occupy(l_6)=2 \longrightarrow move(l_1)$\\
+\STATE Rule64  :: $pair=l_3\land occupy(l_4)=occupy(l_5)=0 \land occupy(l_0)=occupy(l_1)=occupy(l_3)=occupy(l_6)=1 \land occupy(l_2)=2 \longrightarrow move(l_3)$\\
+\STATE Rule65  :: $pair=l_2\land occupy(l_3)=occupy(l_6)=0 \land occupy(l_2)=occupy(l_4)=1 \land occupy(l_0)=occupy(l_1)=occupy(l_5)=2 \longrightarrow move(l_2)$\\
+\STATE Rule66  :: $pair=l_5\land occupy(l_1)=occupy(l_3)=occupy(l_6)=0 \land occupy(l_0)=occupy(l_2)=occupy(l_5)=1 \land occupy(l_4)=2 \longrightarrow move(l_5)$\\
+\STATE Rule67  :: $pair=l_3\land occupy(l_1)=occupy(l_4)=occupy(l_5)=0 \land occupy(l_0)=occupy(l_3)=occupy(l_6)=1 \land occupy(l_2)=2 \longrightarrow move(l_3)$\\
+\STATE Rule68  :: $pair=l_6\land occupy(l_1)=occupy(l_2)=0 \land occupy(l_0)=occupy(l_3)=occupy(l_6)=1 \land occupy(l_4)=occupy(l_5)=2 \longrightarrow move(l_6)$\\
+\STATE Rule69  :: $pair=l_3\land occupy(l_4)=0 \land occupy(l_0)=occupy(l_3)=1 \land occupy(l_1)=occupy(l_2)=occupy(l_5)=occupy(l_6)=2 \longrightarrow move(l_3)$\\
+\STATE Rule70  :: $pair=l_0\land occupy(l_3)=occupy(l_4)=0 \land occupy(l_1)=occupy(l_2)=occupy(l_5)=1 \land occupy(l_6)=2 \longrightarrow move(l_2)$\\
+\STATE Rule71  :: $pair=l_4\land occupy(l_2)=occupy(l_5)=0 \land occupy(l_4)=occupy(l_6)=1 \land occupy(l_0)=occupy(l_1)=occupy(l_3)=2 \longrightarrow move(l_4)$\\
+\STATE Rule72  :: $pair=l_0\land occupy(l_1)=occupy(l_4)=occupy(l_5)=0 \land occupy(l_6)=1 \land occupy(l_2)=occupy(l_3)=2 \longrightarrow move(l_1)$\\
+\STATE Rule73  :: $pair=l_0\land occupy(l_3)=occupy(l_4)=occupy(l_5)=0 \land occupy(l_2)=occupy(l_6)=1 \land occupy(l_1)=2 \longrightarrow move(l_2)$\\
+\STATE Rule74  :: $pair=l_1\land occupy(l_4)=occupy(l_5)=0 \land occupy(l_0)=occupy(l_1)=occupy(l_3)=occupy(l_6)=1 \land occupy(l_2)=2 \longrightarrow move(l_1)$\\
+\STATE Rule75  :: $pair=l_2\land occupy(l_3)=occupy(l_4)=0 \land occupy(l_0)=occupy(l_2)=1 \land occupy(l_1)=occupy(l_5)=occupy(l_6)=2 \longrightarrow move(l_2)$\\
+\STATE Rule76  :: $pair=l_6\land occupy(l_1)=occupy(l_2)=occupy(l_4)=0 \land occupy(l_0)=occupy(l_3)=occupy(l_6)=1 \land occupy(l_5)=2 \longrightarrow move(l_6)$\\

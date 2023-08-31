@@ -1,0 +1,477 @@
+\begin{figure}[H]
+ \begin{minipage}[b]{0.19\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.7]{body/figure/rules/rule5.pdf}
+  \subcaption*{$rule_5$}
+ \end{minipage}
+ \begin{minipage}[b]{0.19\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.7]{body/figure/rules/rule31.pdf}
+  \subcaption*{$rule_31$}
+ \end{minipage}
+ \begin{minipage}[b]{0.19\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.7]{body/figure/rules/rule32.pdf}
+  \subcaption*{$rule_32$}
+ \end{minipage}
+ \begin{minipage}[b]{0.19\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.7]{body/figure/rules/rule33.pdf}
+  \subcaption*{$rule33$}
+ \end{minipage}
+ \begin{minipage}[b]{0.19\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.7]{body/figure/rules/rule45.pdf}
+  \subcaption*{$rule_45$}
+ \end{minipage}\\
+ \begin{minipage}[b]{0.19\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.7]{body/figure/rules/rule46.pdf}
+  \subcaption*{$rule_{46}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.19\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.7]{body/figure/rules/rule56.pdf}
+  \subcaption*{$rule_{56}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.19\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.7]{body/figure/rules/rule57.pdf}
+  \subcaption*{$rule_{57}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.19\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.7]{body/figure/rules/rule58.pdf}
+  \subcaption*{$rule_{58}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.19\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.7]{body/figure/rules/rule59.pdf}
+  \subcaption*{$rule_{59}$}
+ \end{minipage}\\
+ \begin{minipage}[b]{0.19\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.7]{body/figure/rules/rule60.pdf}
+  \subcaption*{$rule_{60}$}
+ \end{minipage}
+\caption{$\mathbb{V}^6$に含まれる状況での観測結果一覧}\label{ruleofV6}
+\end{figure}
+
+\begin{figure}[H]
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_1.pdf}
+  \subcaption*{$c^{6}_1$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_2.pdf}
+  \subcaption*{$c^{6}_2$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_3.pdf}
+  \subcaption*{$c^{6}_3$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_4.pdf}
+  \subcaption*{$c^{6}_4$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_5.pdf}
+  \subcaption*{$c^{6}_5$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_6.pdf}
+  \subcaption*{$c^{6}_6$}
+ \end{minipage}\\
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_7.pdf}
+  \subcaption*{$c^{6}_7$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_8.pdf}
+  \subcaption*{$c^{6}_8$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_9.pdf}
+  \subcaption*{$c^{6}_9$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_10.pdf}
+  \subcaption*{$c^{6}_{10}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_11.pdf}
+  \subcaption*{$c^{6}_{11}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_12.pdf}
+  \subcaption*{$c^{6}_{12}$}
+ \end{minipage}\\
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_13.pdf}
+  \subcaption*{$c^{6}_{13}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_14.pdf}
+  \subcaption*{$c^{6}_{14}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_15.pdf}
+  \subcaption*{$c^{6}_{15}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_16.pdf}
+  \subcaption*{$c^{6}_{16}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_17.pdf}
+  \subcaption*{$c^{6}_{17}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_18.pdf}
+  \subcaption*{$c^{6}_{18}$}
+ \end{minipage}\\
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_19.pdf}
+  \subcaption*{$c^{6}_{19}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_20.pdf}
+  \subcaption*{$c^{6}_{20}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_21.pdf}
+  \subcaption*{$c^{6}_{21}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_22.pdf}
+  \subcaption*{$c^{6}_{22}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_23.pdf}
+  \subcaption*{$c^{6}_{23}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_24.pdf}
+  \subcaption*{$c^{6}_{24}$}
+ \end{minipage}\\
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_25.pdf}
+  \subcaption*{$c^{6}_{25}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_26.pdf}
+  \subcaption*{$c^{6}_{26}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_27.pdf}
+  \subcaption*{$c^{6}_{27}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_28.pdf}
+  \subcaption*{$c^{6}_{28}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_29.pdf}
+  \subcaption*{$c^{6}_{29}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_30.pdf}
+  \subcaption*{$c^{6}_{30}$}
+ \end{minipage}\\
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_31.pdf}
+  \subcaption*{$c^{6}_{31}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_32.pdf}
+  \subcaption*{$c^{6}_{32}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_33.pdf}
+  \subcaption*{$c^{6}_{33}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_34.pdf}
+  \subcaption*{$c^{6}_{34}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_35.pdf}
+  \subcaption*{$c^{6}_{35}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_36.pdf}
+  \subcaption*{$c^{6}_{36}$}
+ \end{minipage}\\
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_37.pdf}
+  \subcaption*{$c^{6}_{37}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_38.pdf}
+  \subcaption*{$c^{6}_{38}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_39.pdf}
+  \subcaption*{$c^{6}_{39}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_40.pdf}
+  \subcaption*{$c^{6}_{40}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_41.pdf}
+  \subcaption*{$c^{6}_{41}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_42.pdf}
+  \subcaption*{$c^{6}_{42}$}
+ \end{minipage}\\
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_43.pdf}
+  \subcaption*{$c^{6}_{43}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_44.pdf}
+  \subcaption*{$c^{6}_{44}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_45.pdf}
+  \subcaption*{$c^{6}_{45}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_46.pdf}
+  \subcaption*{$c^{6}_{46}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_47.pdf}
+  \subcaption*{$c^{6}_{47}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_48.pdf}
+  \subcaption*{$c^{6}_{48}$}
+ \end{minipage}\\
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_49.pdf}
+  \subcaption*{$c^{6}_{49}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_50.pdf}
+  \subcaption*{$c^{6}_{50}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_51.pdf}
+  \subcaption*{$c^{6}_{51}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_52.pdf}
+  \subcaption*{$c^{6}_{52}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_53.pdf}
+  \subcaption*{$c^{6}_{53}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_54.pdf}
+  \subcaption*{$c^{6}_{54}$}
+ \end{minipage}\\
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_55.pdf}
+  \subcaption*{$c^{6}_{55}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_56.pdf}
+  \subcaption*{$c^{6}_{56}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_57.pdf}
+  \subcaption*{$c^{6}_{57}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_58.pdf}
+  \subcaption*{$c^{6}_{58}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_59.pdf}
+  \subcaption*{$c^{6}_{59}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_60.pdf}
+  \subcaption*{$c^{6}_{60}$}
+ \end{minipage}\\
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_61.pdf}
+  \subcaption*{$c^{6}_{61}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_62.pdf}
+  \subcaption*{$c^{6}_{62}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_63.pdf}
+  \subcaption*{$c^{6}_{63}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_64.pdf}
+  \subcaption*{$c^{6}_{64}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_65.pdf}
+  \subcaption*{$c^{6}_{65}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_66.pdf}
+  \subcaption*{$c^{6}_{66}$}
+ \end{minipage}\\
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_67.pdf}
+  \subcaption*{$c^{6}_{67}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_68.pdf}
+  \subcaption*{$c^{6}_{68}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_69.pdf}
+  \subcaption*{$c^{6}_{69}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_70.pdf}
+  \subcaption*{$c^{6}_{70}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_71.pdf}
+  \subcaption*{$c^{6}_{71}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_72.pdf}
+  \subcaption*{$c^{6}_{72}$}
+ \end{minipage}\\
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_73.pdf}
+  \subcaption*{$c^{6}_{73}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_74.pdf}
+  \subcaption*{$c^{6}_{74}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_75.pdf}
+  \subcaption*{$c^{6}_{75}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_76.pdf}
+  \subcaption*{$c^{6}_{76}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_77.pdf}
+  \subcaption*{$c^{6}_{77}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_78.pdf}
+  \subcaption*{$c^{6}_{78}$}
+ \end{minipage}\\
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_79.pdf}
+  \subcaption*{$c^{6}_{79}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_80.pdf}
+  \subcaption*{$c^{6}_{80}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_81.pdf}
+  \subcaption*{$c^{6}_{81}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_82.pdf}
+  \subcaption*{$c^{6}_{82}$}
+ \end{minipage}
+ \begin{minipage}[b]{0.16\linewidth}
+  \centering
+  \includegraphics[keepaspectratio, scale=0.36]{body/figure/configs/V6/c6_83.pdf}
+  \subcaption*{$c^{6}_{83}$}
+ \end{minipage}
+ \caption{$\mathbb{V}^6$に含まれる状況の一覧}\label{V6}
+\end{figure}

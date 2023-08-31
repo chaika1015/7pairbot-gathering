@@ -1,0 +1,641 @@
+[
+	{
+		"parentId": 1,
+		"childId": 1,
+		"isShort": true,
+		"pairPointId": 0,
+		"occupy": [0, 2, 0, 0, 0, 0, 0],
+		"conditions": ["pass", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 2
+	},
+	{
+		"parentId": 1,
+		"childId": 2,
+		"isShort": true,
+		"pairPointId": 0,
+		"occupy": [0, 0, 2, 0, 0, 0, 0],
+		"conditions": ["pass", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 3
+	},
+	{
+		"parentId": 1,
+		"childId": 3,
+		"isShort": true,
+		"pairPointId": 0,
+		"occupy": [0, 0, 0, 2, 0, 0, 0],
+		"conditions": ["pass", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 4
+	},
+	{
+		"parentId": 1,
+		"childId": 4,
+		"isShort": true,
+		"pairPointId": 0,
+		"occupy": [0, 0, 0, 0, 2, 0, 0],
+		"conditions": ["pass", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 5
+	},
+	{
+		"parentId": 1,
+		"childId": 5,
+		"isShort": true,
+		"pairPointId": 0,
+		"occupy": [0, 0, 0, 0, 0, 2, 0],
+		"conditions": ["pass", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 6
+	},
+	{
+		"parentId": 1,
+		"childId": 6,
+		"isShort": true,
+		"pairPointId": 0,
+		"occupy": [0, 0, 0, 0, 0, 0, 2],
+		"conditions": ["pass", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 1
+	},
+	{
+		"parentId": 1,
+		"childId": 7,
+		"isShort": false,
+		"pairPointId": 2,
+		"occupy": [0, 2, 1, 0, 0, 0, 0],
+		"conditions": ["pass", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 2
+	},
+	{
+		"parentId": 1,
+		"childId": 8,
+		"isShort": false,
+		"pairPointId": 3,
+		"occupy": [0, 0, 2, 1, 0, 0, 0],
+		"conditions": ["pass", "pass", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 3
+	},
+	{
+		"parentId": 1,
+		"childId": 9,
+		"isShort": false,
+		"pairPointId": 4,
+		"occupy": [0, 0, 0, 2, 1, 0, 0],
+		"conditions": ["pass", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 4
+	},
+	{
+		"parentId": 1,
+		"childId": 10,
+		"isShort": false,
+		"pairPointId": 5,
+		"occupy": [0, 0, 0, 1, 2, 1, 0],
+		"conditions": ["pass", "eq", "eq", "le", "eq", "eq", "eq"],
+		"nextPointId": 5
+	},
+	{
+		"parentId": 1,
+		"childId": 11,
+		"isShort": false,
+		"pairPointId": 6,
+		"occupy": [0, 0, 0, 0, 0, 2, 1],
+		"conditions": ["pass", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 6
+	},
+	{
+		"parentId": 1,
+		"childId": 12,
+		"isShort": false,
+		"pairPointId": 1,
+		"occupy": [0, 1, 0, 0, 0, 0, 2],
+		"conditions": ["pass", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 1
+	},
+	{
+		"parentId": 1,
+		"childId": 13,
+		"isShort": true,
+		"pairPointId": 0,
+		"occupy": [0, 2, 0, 0, 0, 0, 2],
+		"conditions": ["pass", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 2
+	},
+	{
+		"parentId": 1,
+		"childId": 14,
+		"isShort": true,
+		"pairPointId": 0,
+		"occupy": [0, 1, 2, 0, 0, 0, 0],
+		"conditions": ["pass", "me", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 3
+	},
+	{
+		"parentId": 1,
+		"childId": 15,
+		"isShort": true,
+		"pairPointId": 0,
+		"occupy": [0, 0, 2, 2, 0, 0, 0],
+		"conditions": ["pass", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 4
+	},
+	{
+		"parentId": 1,
+		"childId": 16,
+		"isShort": true,
+		"pairPointId": 0,
+		"occupy": [0, 0, 0, 1, 2, 0, 0],
+		"conditions": ["pass", "eq", "eq", "me", "eq", "eq", "eq"],
+		"nextPointId": 5
+	},
+	{
+		"parentId": 1,
+		"childId": 17,
+		"isShort": true,
+		"pairPointId": 0,
+		"occupy": [0, 0, 0, 0, 1, 2, 0],
+		"conditions": ["pass", "eq", "eq", "eq", "me", "eq", "eq"],
+		"nextPointId": 6
+	},
+	{
+		"parentId": 1,
+		"childId": 18,
+		"isShort": true,
+		"pairPointId": 0,
+		"occupy": [0, 0, 0, 0, 0, 2, 2],
+		"conditions": ["pass", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 1
+	},
+	{
+		"parentId": 1,
+		"childId": 19,
+		"isShort": false,
+		"pairPointId": 2,
+		"occupy": [1, 2, 1, 0, 0, 0, 2],
+		"conditions": ["eq", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 2
+	},
+	{
+		"parentId": 1,
+		"childId": 20,
+		"isShort": false,
+		"pairPointId": 4,
+		"occupy": [0, 0, 2, 2, 1, 0, 0],
+		"conditions": ["pass", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 4
+	},
+	{
+		"parentId": 1,
+		"childId": 21,
+		"isShort": false,
+		"pairPointId": 5,
+		"occupy": [0, 0, 0, 2, 2, 1, 0],
+		"conditions": ["pass", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 5
+	},
+	{
+		"parentId": 1,
+		"childId": 22,
+		"isShort": false,
+		"pairPointId": 6,
+		"occupy": [0, 0, 0, 0, 1, 2, 1],
+		"conditions": ["pass", "eq", "eq", "eq", "me", "eq", "eq"],
+		"nextPointId": 6
+	},
+	{
+		"parentId": 1,
+		"childId": 23,
+		"isShort": false,
+		"pairPointId": 1,
+		"occupy": [1, 1, 1, 0, 0, 0, 0],
+		"conditions": ["eq", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 1
+	},
+	{
+		"parentId": 1,
+		"childId": 24,
+		"isShort": false,
+		"pairPointId": 2,
+		"occupy": [1, 0, 1, 1, 0, 0, 0],
+		"conditions": ["eq", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 2
+	},
+	{
+		"parentId": 1,
+		"childId": 25,
+		"isShort": false,
+		"pairPointId": 3,
+		"occupy": [1, 0, 0, 1, 1, 0, 0],
+		"conditions": ["eq", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 3
+	},
+	{
+		"parentId": 1,
+		"childId": 26,
+		"isShort": false,
+		"pairPointId": 4,
+		"occupy": [1, 0, 0, 0, 1, 1, 0],
+		"conditions": ["eq", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 4
+	},
+	{
+		"parentId": 1,
+		"childId": 27,
+		"isShort": false,
+		"pairPointId": 5,
+		"occupy": [1, 0, 0, 0, 0, 1, 1],
+		"conditions": ["eq", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 5
+	},
+	{
+		"parentId": 1,
+		"childId": 28,
+		"isShort": false,
+		"pairPointId": 6,
+		"occupy": [1, 1, 0, 0, 0, 0, 1],
+		"conditions": ["eq", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 6
+	},
+	{
+		"parentId": 1,
+		"childId": 29,
+		"isShort": true,
+		"pairPointId": 0,
+		"occupy": [0, 2, 1, 0, 0, 2, 0],
+		"conditions": ["pass", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 2
+	},
+	{
+		"parentId": 1,
+		"childId": 30,
+		"isShort": true,
+		"pairPointId": 0,
+		"occupy": [0, 0, 2, 1, 0, 0, 0],
+		"conditions": ["pass", "pass", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 3
+	},
+	{
+		"parentId": 1,
+		"childId": 31,
+		"isShort": true,
+		"pairPointId": 0,
+		"occupy": [0, 0, 0, 2, 1, 0, 0],
+		"conditions": ["pass", "eq", "pass", "eq", "eq", "eq", "eq"],
+		"nextPointId": 4
+	},
+	{
+		"parentId": 1,
+		"childId": 32,
+		"isShort": true,
+		"pairPointId": 0,
+		"occupy": [0, 0, 0, 0, 2, 1, 0],
+		"conditions": ["pass", "eq", "eq", "pass", "eq", "eq", "eq"],
+		"nextPointId": 5
+	},
+	{
+		"parentId": 1,
+		"childId": 33,
+		"isShort": true,
+		"pairPointId": 0,
+		"occupy": [0, 0, 0, 0, 0, 2, 1],
+		"conditions": ["pass", "eq", "eq", "eq", "pass", "eq", "eq"],
+		"nextPointId": 6
+	},
+	{
+		"parentId": 1,
+		"childId": 34,
+		"isShort": true,
+		"pairPointId": 0,
+		"occupy": [0, 1, 0, 0, 0, 0, 2],
+		"conditions": ["pass", "eq", "eq", "eq", "eq", "pass", "eq"],
+		"nextPointId": 1
+	},
+	{
+		"parentId": 1,
+		"childId": 35,
+		"isShort": true,
+		"pairPointId": 0,
+		"occupy": [0, 2, 1, 0, 0, 0, 0],
+		"conditions": ["pass", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 2
+	},
+	{
+		"parentId": 1,
+		"childId": 36,
+		"isShort": false,
+		"pairPointId": 1,
+		"occupy": [2, 1, 0, 0, 0, 0, 0],
+		"conditions": ["eq", "eq", "eq", "eq", "pass", "pass", "pass"],
+		"nextPointId": 1
+	},
+	{
+		"parentId": 1,
+		"childId": 37,
+		"isShort": false,
+		"pairPointId": 2,
+		"occupy": [2, 0, 1, 0, 0, 0, 0],
+		"conditions": ["eq", "pass", "eq", "eq", "eq", "pass", "pass"],
+		"nextPointId": 2
+	},
+	{
+		"parentId": 1,
+		"childId": 38,
+		"isShort": false,
+		"pairPointId": 6,
+		"occupy": [2, 0, 0, 0, 0, 0, 1],
+		"conditions": ["eq", "eq", "eq", "pass", "pass", "pass", "eq"],
+		"nextPointId": 6
+	},
+	{
+		"parentId": 1,
+		"childId": 39,
+		"isShort": false,
+		"pairPointId": 3,
+		"occupy": [2, 0, 0, 1, 0, 0, 0],
+		"conditions": ["eq", "pass", "pass", "eq", "eq", "eq", "pass"],
+		"nextPointId": 3
+	},
+	{
+		"parentId": 1,
+		"childId": 40,
+		"isShort": false,
+		"pairPointId": 4,
+		"occupy": [2, 0, 0, 0, 1, 0, 0],
+		"conditions": ["eq", "pass", "pass", "pass", "eq", "eq", "eq"],
+		"nextPointId": 4
+	},
+	{
+		"parentId": 1,
+		"childId": 42,
+		"isShort": false,
+		"pairPointId": 5,
+		"occupy": [2, 0, 0, 0, 0, 1, 0],
+		"conditions": ["eq", "eq", "pass", "pass", "pass", "eq", "eq"],
+		"nextPointId": 5
+	},
+	{
+		"parentId": 1,
+		"childId": 43,
+		"isShort": true,
+		"pairPointId": 0,
+		"occupy": [0, 0, 1, 0, 0, 0, 2],
+		"conditions": ["pass", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 2
+	},
+	{
+		"parentId": 1,
+		"childId": 44,
+		"isShort": true,
+		"pairPointId": 0,
+		"occupy": [0, 2, 0, 1, 0, 0, 0],
+		"conditions": ["pass", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 3
+	},
+	{
+		"parentId": 1,
+		"childId": 45,
+		"isShort": true,
+		"pairPointId": 0,
+		"occupy": [0, 0, 2, 0, 1, 0, 0],
+		"conditions": ["pass", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 4
+	},
+	{
+		"parentId": 1,
+		"childId": 46,
+		"isShort": true,
+		"pairPointId": 0,
+		"occupy": [0, 0, 1, 0, 0, 0, 0],
+		"conditions": ["pass", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 2
+	},
+	{
+		"parentId": 1,
+		"childId": 47,
+		"isShort": false,
+		"pairPointId": 2,
+		"occupy": [1, 0, 1, 0, 0, 0, 0],
+		"conditions": ["eq", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 2
+	},
+	{
+		"parentId": 1,
+		"childId": 48,
+		"isShort": false,
+		"pairPointId": 1,
+		"occupy": [1, 1, 0, 1, 2, 2, 2],
+		"conditions": ["eq", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 1
+	},
+	{
+		"parentId": 1,
+		"childId": 49,
+		"isShort": true,
+		"pairPointId": 0,
+		"occupy": [0, 1, 0, 0, 1, 2, 2],
+		"conditions": ["pass", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 1
+	},
+	{
+		"parentId": 1,
+		"childId": 50,
+		"isShort": false,
+		"pairPointId": 2,
+		"occupy": [2, 2, 1, 0, 2, 2, 2],
+		"conditions": ["eq", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 2
+	},
+	{
+		"parentId": 1,
+		"childId": 51,
+		"isShort": true,
+		"pairPointId": 0,
+		"occupy": [0, 0, 1, 0, 0, 0, 1],
+		"conditions": ["pass", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 2
+	},
+	{
+		"parentId": 1,
+		"childId": 52,
+		"isShort": false,
+		"pairPointId": 2,
+		"occupy": [1, 0, 1, 0, 0, 0, 1],
+		"conditions": ["eq", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 2
+	},
+	{
+		"parentId": 1,
+		"childId": 53,
+		"isShort": false,
+		"pairPointId": 1,
+		"occupy": [1, 1, 0, 0, 0, 0, 0],
+		"conditions": ["eq", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 1
+	},
+	{
+		"parentId": 1,
+		"childId": 54,
+		"isShort": false,
+		"pairPointId": 4,
+		"occupy": [1, 0, 1, 2, 1, 0, 0],
+		"conditions": ["eq", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 4
+	},
+	{
+		"parentId": 1,
+		"childId": 55,
+		"isShort": false,
+		"pairPointId": 4,
+		"occupy": [2, 2, 2, 2, 1, 0, 1],
+		"conditions": ["eq", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 4
+	},
+	{
+		"parentId": 1,
+		"childId": 56,
+		"isShort": false,
+		"pairPointId": 2,
+		"occupy": [1, 2, 1, 0, 0, 1, 2],
+		"conditions": ["eq", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 2
+	},
+	{
+		"parentId": 1,
+		"childId": 57,
+		"isShort": false,
+		"pairPointId": 5,
+		"occupy": [2, 1, 2, 2, 2, 1, 0],
+		"conditions": ["eq", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 5
+	},
+	{
+		"parentId": 1,
+		"childId": 58,
+		"isShort": true,
+		"pairPointId": 0,
+		"occupy": [0, 1, 0, 0, 1, 2, 1],
+		"conditions": ["pass", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 1
+	},
+	{
+		"parentId": 1,
+		"childId": 59,
+		"isShort": false,
+		"pairPointId": 1,
+		"occupy": [2, 1, 0, 2, 2, 0, 2],
+		"conditions": ["eq", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 1
+	},
+	{
+		"parentId": 1,
+		"childId": 60,
+		"isShort": false,
+		"pairPointId": 3,
+		"occupy": [1, 1, 2, 1, 0, 0, 1],
+		"conditions": ["eq", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 3
+	},
+	{
+		"parentId": 1,
+		"childId": 61,
+		"isShort": false,
+		"pairPointId": 2,
+		"occupy": [2, 2, 1, 0, 1, 2, 0],
+		"conditions": ["eq", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 2
+	},
+	{
+		"parentId": 1,
+		"childId": 62,
+		"isShort": false,
+		"pairPointId": 5,
+		"occupy": [1, 0, 1, 0, 2, 1, 0],
+		"conditions": ["eq", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 5
+	},
+	{
+		"parentId": 1,
+		"childId": 63,
+		"isShort": false,
+		"pairPointId": 3,
+		"occupy": [1, 0, 1, 1, 0, 0, 1],
+		"conditions": ["eq", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 3
+	},
+	{
+		"parentId": 1,
+		"childId": 64,
+		"isShort": false,
+		"pairPointId": 6,
+		"occupy": [1, 0, 0, 1, 2, 2, 1],
+		"conditions": ["eq", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 6
+	},
+	{
+		"parentId": 1,
+		"childId": 65,
+		"isShort": false,
+		"pairPointId": 3,
+		"occupy": [1, 2, 2, 1, 0, 2, 2],
+		"conditions": ["eq", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 3
+	},
+	{
+		"parentId": 1,
+		"childId": 66,
+		"isShort": true,
+		"pairPointId": 0,
+		"occupy": [0, 1, 1, 0, 0, 1, 2],
+		"conditions": ["pass", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 2
+	},
+	{
+		"parentId": 1,
+		"childId": 67,
+		"isShort": false,
+		"pairPointId": 4,
+		"occupy": [1, 2, 0, 2, 1, 0, 1],
+		"conditions": ["eq", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 4
+	},
+	{
+		"parentId": 1,
+		"childId": 68,
+		"isShort": true,
+		"pairPointId": 0,
+		"occupy": [0, 0, 2, 2, 0, 0, 1],
+		"conditions": ["pass", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 1
+	},
+	{
+		"parentId": 1,
+		"childId": 69,
+		"isShort": true,
+		"pairPointId": 0,
+		"occupy": [0, 2, 1, 0, 0, 0, 1],
+		"conditions": ["pass", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 2
+	},
+	{
+		"parentId": 1,
+		"childId": 70,
+		"isShort": false,
+		"pairPointId": 1,
+		"occupy": [1, 1, 2, 1, 0, 0, 1],
+		"conditions": ["eq", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 1
+	},
+	{
+		"parentId": 1,
+		"childId": 71,
+		"isShort": false,
+		"pairPointId": 2,
+		"occupy": [1, 2, 1, 0, 0, 2, 2],
+		"conditions": ["eq", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 2
+	},
+	{
+		"parentId": 1,
+		"childId": 72,
+		"isShort": false,
+		"pairPointId": 6,
+		"occupy": [1, 0, 0, 1, 0, 2, 1],
+		"conditions": ["eq", "eq", "eq", "eq", "eq", "eq", "eq"],
+		"nextPointId": 6
+	}
+]
